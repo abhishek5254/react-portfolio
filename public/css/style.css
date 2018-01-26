@@ -1,0 +1,110 @@
+body {
+
+ 	content: "";
+ 	display: block;
+ 	z-index: -1;
+ 	opacity:1;
+	background-image: url("../images/orangeback4.jpg");
+ 	background-repeat: no-repeat;
+}
+
+/* HEADER */
+.clearfix {
+	background-color: orange;
+}
+
+#header-title {
+	font-family: "Geo";
+	font-size: 50px;
+}
+
+/* HOME PAGE */
+h1, h2, h3, h4, p, li {
+	color: slategrey;
+	font-family: "Geo";
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+/* ABOUT ME PAGE */
+
+img {
+	border: solid 1px #ddd;
+	border-radius: 100%;
+	padding: 5px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 200px;
+}
+
+.about-me-header {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 18px;
+}
+
+.about-main-text {
+	margin: 0;
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+/* CONTACT ME PAGE */
+
+.text-center {
+	font-size: 25px;
+}
+.gen-info {
+	text-align: center;
+}
+.job-description {
+	text-align: center;
+	font-size: 25px;
+	border-radius: 5px;
+	margin-top: 24px;
+}
+
+.my-languages {
+	text-align: center;
+	font-size: 20px;
+}
+
+.work-roster {
+	text-align: center;
+	font-size: 20px;
+}
+
+.bottom-blurb {
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+.contact-info {
+	text-align: center;
+	font-size: 20px;
+}
+
+/* FOOTER */
+.footer {
+	 background-color: orange;
+ }
+
+.btn {
+	font-family: "Geo";
+	font-size: 20px;
+	margin: 6px;
+	text-decoration: none;
+}
+
+ .btn: hover {
+	background-color: black;
+}
