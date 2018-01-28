@@ -40,7 +40,9 @@ h1, h2, h3, h4, p, li {
   box-shadow: inset 0 0 25px 5px rgba(0, 0, 0, .2);
 }
 
-
+.img-title {
+  margin-left: 46px;
+}
 
 footer {
   position: absolute;
@@ -54,7 +56,6 @@ footer {
 /* ABOUT ME PAGE */
 
 img {
-	border: solid 1px #ddd;
 	border-radius: 100%;
 	padding: 5px;
 	display: block;
