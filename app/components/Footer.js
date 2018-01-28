@@ -11,7 +11,7 @@ export default class Footer extends Component {
   }
   render() {
     return(
-      
+
         <div>
           <footer className="footer">
             <a className="waves-effect waves-light btn red">
@@ -23,6 +23,7 @@ export default class Footer extends Component {
             <a className="waves-effect waves-light btn blue">
               <Link style={{color:'white', padding: '5px', textDecoration: 'none'}} to="/contact">Contact Page</Link>
             </a>
+            <h4 classname="text-center" id="copyrite-tag">&copy; 2017 PJ Valentini.</h4>
           </footer>
         </div>
     );

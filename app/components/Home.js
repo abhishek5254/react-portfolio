@@ -11,7 +11,7 @@ export default class Home extends React.Component {
     return (
       <div>
         <Header/>
-        <h1>Welcome to my Site</h1>
+        <h1 className="home-header">Welcome to my Site</h1>
         <Footer/>
       </div>
     )

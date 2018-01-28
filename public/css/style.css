@@ -58,6 +58,12 @@ img {
 	font-size: 30px;
 }
 
+.twitter-blurb {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
 /* CONTACT ME PAGE */
 
 .text-center {
@@ -95,7 +101,7 @@ img {
 
 /* FOOTER */
 .footer {
-	 background-color: orange;
+	 border-top: solid 2px orange;
  }
 
 .btn {
@@ -105,6 +111,6 @@ img {
 	text-decoration: none;
 }
 
- .btn: hover {
-	background-color: black;
+#copyrite-tag {
+  font-size: 20px;
 }
